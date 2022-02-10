@@ -12,6 +12,8 @@ const bodyParser = require('body-parser');
 
 app.use(morgan('tiny'));
 
+//bodyparser
+
 app.use(bodyParser.urlencoded({extended:true}))
 
 dotenv.config({path:'.env'});
